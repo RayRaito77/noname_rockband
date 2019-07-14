@@ -5,6 +5,8 @@
 <title>Insert title here</title>
 </head>
 <body>
- <p>Hello</p>
+ <p>Hello <?php echo $user->getPrenom() ;?></p>
+ 
+ 
 </body>
 </html>
